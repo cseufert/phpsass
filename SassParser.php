@@ -23,9 +23,9 @@
  */
 
 require_once 'SassLoader.php';
-#require_once 'SassFile.php';
-#require_once 'SassException.php';
-#require_once 'tree/SassNode.php';
+require_once 'SassFile.php';
+require_once 'SassException.php';
+require_once 'tree/SassNode.php';
 
 /**
  * SassParser class.
@@ -35,7 +35,7 @@ require_once 'SassLoader.php';
  */
 class SassParser
 {
-  /**#@+
+  /**
    * Default option values
    */
   const BEGIN_COMMENT                    = '/';
